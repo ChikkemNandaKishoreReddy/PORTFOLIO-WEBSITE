@@ -1,0 +1,183 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="Styling.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#about"><i class="fa-solid fa-address-card"></i>About</a></li>  
+                <li><a href="#project"><i class="fa-solid fa-diagram-project"></i>Projects</a></li>
+                <li><a href="#contact"><i class="fa-solid fa-message"></i>Contact</a></li>
+                <i class="fa-solid fa-xmark" style="color: #ffffff;" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="openmenu()"></i>
+        </nav>
+    </div>
+</div>
+<!-- ---------------------------------home----------------------------------- -->
+<div id="home">
+    <div class="container">
+        <div class="home-content">
+            <h1>Hi, Myself <span>Chikkem Nanda Kishore Reddy.</span></h1>
+            <p>A Student who is passionate towards web developement.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/nanda-kishore-reddy-chikkem-812171323" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/ChikkemNandaKishoreReddy" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:nandakishorereddychikkem2507@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ---------------------------------about------------------------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="user1.jpg">
+            </div>
+            <div class="col-2">
+                <h1 class="sub-title abo">About Me</h1>
+
+                <p>I’m currently a student at Amrita University, where I’m exploring my interests and building a strong foundation for the future.
+                     I’ve always been curious and eager to understand how things work, which drives me to keep learning, creating, and improving. 
+                     My interests include technology, design, and problem-solving. Whether I’m working on a project, learning a new skill, or helping others, 
+                     I enjoy challenging myself and finding creative solutions. Also i'm more passionated towards web development. 
+                </p>
+
+                <div class="info">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java Script</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------------------------projects--------------------------------- -->
+<section id="project" class="project-section">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Weather Application</h3>
+                <p>Developed a weather application using the OpenWeatherMap API, demonstrating real-time data fetching and display.Used HTML/CSS to create a dynamic user interface.</p>
+                <div class="link-1">
+                    <a href="https://openweathermap.org/api/one-call-3#example" target="_blank" class="btn-1"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project-item">
+                <h3>E-commerce Product </h3>
+                <p>Customized a Shopify theme for an online store, focusing on responsive design and enhanced user experience.Utilized HTML, CSS, and Liquid templating to create a visually appealing product page.</p>
+                <div class="link-2">
+                    <a href="https://themes.shopify.com/themes/debut/styles/default/preview" target="_blank" class="btn-1"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+            <div class="project-item">
+                <h3>Task Management </h3>
+                <p>Explored task management app design concepts, using Todoist as a reference for creating organized user interfaces.Created wireframes and mockups using Figma, focusing on user flow and intuitive design.</p>
+                <div class="link-3">
+                    <a href="https://todoist.com/" target="_blank" class="btn-1"><i class="fas fa-external-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------------------------------contact----------------------------------- -->
+<section id="contact" class="contact">
+    <div class="container">
+    <h1 class="sub-title subt">Contact Me</h1>
+    <div class="container contact-wrapper">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Feel free to reach out to us for any quaries.</p>
+            <div class="details">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:nandakishorereddychikkem2507@gmail.com">Mail</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/nanda-kishore-reddy-chikkem-812171323" target="_blank">LinkedIn</a>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/ChikkemNandaKishoreReddy" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h2>Send a Message</h2>
+            <form class="form" name="submit-to-google-sheet">
+                <div class="form-item">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="Name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="Email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-item">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="Message" placeholder="Type your message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="contact-btn">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    </div>
+</section>
+<!-- -------------------------------footer----------------------------------- -->
+<footer>
+    <div class="container">
+        <p><span id="copy">Copyright &copy; CHIKKEM NANDA KISHORE REDDY </span>| <a href="#home" class="btn">Home</a> | <a href="#about" class="btn">About</a> | <a href="#project" class="btn">Projects</a> | <a href="#contact" class="btn">Contact</a> | </p>
+    </div>
+</footer>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWfxLVE_y3Jtt9ERIezkEGXB-Ap_4s6NcOQbO4-mrh5j0NKqb3BqntmG2sR2_CkSdiBA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Submitted Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
